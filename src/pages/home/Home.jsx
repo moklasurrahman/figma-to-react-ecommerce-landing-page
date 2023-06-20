@@ -4,8 +4,8 @@ import Hero from '../../components/hero/Hero';
 import TrendingProducts from './../../components/trending Products/TrendingProducts';
 import CategorySection from './../../components/categorySection/CategorySection';
 import FeaturedProduct from './../../components/featuredProduct/FeaturedProduct';
-import Feature from '../../components/trending Products/feature/Feature';
 import Testimonial from '../../components/testimonial/Testimonial';
+import Feature from './../../components/feature/Feature';
 
 const Home = () => {
   return (

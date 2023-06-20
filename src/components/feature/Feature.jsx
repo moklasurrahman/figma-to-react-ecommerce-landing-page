@@ -1,15 +1,16 @@
 import React from "react";
-import bgimg from "../../../assets/Backgroung-populer.svg";
-import logos from "../../../assets/Logos.svg";
-import bg2 from "../../../assets/Background-social.svg";
-import personImg from "../../../assets/image 49.svg";
-import img51 from "../../../assets/image 51.svg";
-import img52 from "../../../assets/image 52.svg";
-import img53 from "../../../assets/sunglass.svg";
+import bgimg from "../../assets/Backgroung-populer.svg";
+import logos from "../../assets/Logos.svg";
+import bg2 from "../../assets/Background-social.svg";
+import personImg from "../../assets/image 49.svg";
+import img51 from "../../assets/image 51.svg";
+import img52 from "../../assets/image 52.svg";
+import img53 from "../../assets/sunglass.svg";
 
-import icon1 from "../../../assets/icon/face.svg";
-import icon2 from "../../../assets/icon/insta.svg";
-import icon3 from "../../../assets/icon/twite.svg";
+import icon1 from "../../assets/icon/face.svg";
+import icon2 from "../../assets/icon/insta.svg";
+import icon3 from "../../assets/icon/twite.svg";
+
 
 const Feature = () => {
   return (
