@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import TrandingProductCard from './../card/TrandingProductCard';
-
-import 'slick-carousel/slick/slick-theme.css';
 import { useEffect } from 'react';
 import { getproduct } from './../../services/productServices';
 
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const TrendingProducts = () => {
 
@@ -24,6 +25,45 @@ const TrendingProducts = () => {
       }
       fetchProducts()
      }, []);
+
+
+     const carouselProperties = {
+      dots: false,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      infinite: false,
+
+      responsive: [
+        {
+          breakpoint: 426,
+          settings: {
+            slidesToShow: 1,
+            centerMode: false,
+          },
+        },
+        {
+          breakpoint: 769,
+          settings: {
+            slidesToShow: 5,
+            centerMode: false,
+          },
+        },
+        {
+          breakpoint: 1025,
+          settings: {
+            slidesToShow: 5,
+            centerMode: false,
+            slidesToScroll: 2,
+          },
+        },
+      ],
+     
+    }
+
+
+
+
+
   
   return (
     <section className="mt-[227px] text-[#000002] overflow-hidden">
@@ -53,11 +93,13 @@ const TrendingProducts = () => {
 
        <div className="absolute top-[176px] left-[140px]">
           <div className="card w-full flex gap-5">
+            <Slider {...carouselProperties}>
             {
               products.products?.map((product)=>(
                 <TrandingProductCard key={product.id} product={product}/>
               ))
             }
+            </Slider>
            </div>
 
        </div>

@@ -13,14 +13,14 @@ const Hero = () => {
     <section >
        <div className='relative'>
         <img src={img} alt="" className=' absolute top-0 left-0 object-cover h-auto w-full'/>
-        <img src={img2} alt="" className=' absolute top-0 left-0' />
       
         <div className=' pt-0'>
             <Navbar/>
         </div>
 
         <div className=' relative max-w-screen-xl xl:max-w-screen-xl flex justify-center items-center flex-col m-auto'>
-    
+        <img src={img2} alt="" className=' absolute top-0 left-0' />
+
         {/* slider start */}
         <div className='slider relative flex items-center justify-between gap-0 w-full pt-[80px] px-[100px]'> 
         <div className="left flex flex-1 flex-col justify-start items-start text-start">
@@ -59,7 +59,7 @@ const Hero = () => {
         </div>{/* slider End*/}
 
 
-        <div className='flex gap-[45px] items-center pl-[50px] absolute top-[545px] left-[580px]'>
+        <div className='flex gap-[45px] items-center pl-[50px] absolute top-[530px] left-[580px]'>
             <button className=' text-[14px] font-[400] text-[#1D65FF]'>PREV</button>
                 <div className='flex items-center gap-[19px]'> 
                     <span className='w-[8px] h-[8px] bg-[#1D65FF] rounded opacity-60 '></span> 

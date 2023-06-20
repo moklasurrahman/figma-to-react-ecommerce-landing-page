@@ -14,7 +14,7 @@ const TrandingProductCard = ({product}) => {
         <div className='pl-[30px] pt-[20px] pr-[90px] flex flex-col'>
           <h1 className=' text-[#171717] text-[22px] font-[600] font-[Poppins]'>Seven Zero <p></p> Five</h1>
           <span className=' text-[#475E68] mt-[4px] font-[600] text-[16px]'>Starting</span>
-          <span className=' text-[#FF4516] mt-[14px] font-[600] text-[16px]'>$10.00</span>
+          <span className=' text-[#FF4516] mt-[14px] font-[600] text-[16px]'>${product.price}</span>
         </div>
         <div className=' absolute top-[-50px] right-0'><img src={product.thumbnail} alt="" className='w-[72px] h-[180px] object-cover'/></div>
     </div>
