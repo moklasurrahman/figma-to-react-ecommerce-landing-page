@@ -9,7 +9,7 @@ import Feature from "./../../components/feature/Feature";
 const Home = () => {
   return (
     // w-[1440px]
-    <div className="">
+    <div className="w-[1440px]">
       {/* <Topbar/> */}
       <Hero />
       <div className="mt-[100px]"></div>

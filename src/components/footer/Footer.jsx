@@ -6,7 +6,7 @@ import logo from "../../assets/icon/footerlogo.svg";
 const Footer = () => {
   return (
     <section>
-      <div className="bg-[#232347] mt-[103px] relative w-full">
+      <div className="bg-[#232347] mt-[103px] relative w-[1440px]">
         <img
           src={img}
           className="w-[1440px] h-[431px] opacity-50 flex m-auto justify-center"
@@ -200,7 +200,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-[#232347] dark:bg-gray-700 w-full">
+      <div className="bg-[#232347] dark:bg-gray-700 w-[1440px]">
         <div className="text-[16px] font-[400] text-[#FFFFFF] h-[62px] max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
           <span className="">© 2021-2023 SnipShop.com</span>
           <div className="flex mt-4 space-x-6 sm:justify-center md:mt-0">

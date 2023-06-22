@@ -10,8 +10,8 @@ const Topbar = () => {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <section className="bg-[#1E66FF] w-full">
-      <div className=" h-[78px] max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+    <section className="bg-[#1E66FF] w-[1440px]">
+      <div className=" h-[78px] w-[1280px] flex flex-wrap items-center justify-between mx-auto">
         <div className=" cursor-pointer">
           <Link to="/">
             <img src={logo} alt="" className="w-[92px] h-[28px]" />
