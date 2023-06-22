@@ -1,9 +1,5 @@
-
-
 const Erroe = () => {
-  return (
-    <div>Erroe</div>
-  )
-}
+  return <div>Erroe</div>;
+};
 
-export default Erroe
+export default Erroe;

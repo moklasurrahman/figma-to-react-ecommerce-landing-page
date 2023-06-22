@@ -11,7 +11,6 @@ import icon1 from "../../assets/icon/face.svg";
 import icon2 from "../../assets/icon/insta.svg";
 import icon3 from "../../assets/icon/twite.svg";
 
-
 const Feature = () => {
   return (
     <section className="bg-[#F4FCFF] h-[1818px] mt-[100px]">
@@ -39,23 +38,21 @@ const Feature = () => {
           </div>
         </div>
 
-
-
-{/* //------------------------------------------------------------------- */}
+        {/* //------------------------------------------------------------------- */}
         <div className="bottom mt-[212px]">
           <div className="flex items-center justify-center">
             <div className="left">
-            <h1 className="font-[700] text-[36px]">
-            Sell Easily on Socialmedia
-            </h1>
-            <p className="font-[400] text-[18px] mt-[25px]">
-            Life is hard enough already. Let us make it a little easier.
-            </p>
-            <span className="mt-[65px] font-[500] text-[16px] flex gap-[12px]">
-              See All <i class="bi bi-arrow-right"></i>
-            </span>
+              <h1 className="font-[700] text-[36px]">
+                Sell Easily on Socialmedia
+              </h1>
+              <p className="font-[400] text-[18px] mt-[25px]">
+                Life is hard enough already. Let us make it a little easier.
+              </p>
+              <span className="mt-[65px] font-[500] text-[16px] flex gap-[12px]">
+                See All <i class="bi bi-arrow-right"></i>
+              </span>
             </div>
-            
+
             <div className="right">
               <div className="left relative  w-[718px] h-[718px]">
                 <img src={bg2} className=" w-[718px] h-[718px]" alt="" />
